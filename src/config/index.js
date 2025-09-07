@@ -6,8 +6,4 @@ module.exports.Config = {
     mongoDbname: process.env.MONGO_DBNAME,
 }
 
-console.log('variables')
-console.log(process.env.PORT)
-console.log(process.env.MONGO_URI)
-console.log(process.env.MONGO_DBNAME)
 

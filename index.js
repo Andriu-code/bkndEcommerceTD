@@ -16,6 +16,11 @@ app.use(cors());
 
 app.use(express.json());
 
+console.log('variables')
+console.log(process.env.PORT)
+console.log(process.env.MONGO_URI)
+console.log(process.env.MONGO_DBNAME)
+
 IndexAPI(app);
 
 ProductsAPI(app);
